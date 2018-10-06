@@ -70,7 +70,7 @@ TEXT
 
 #Sistema
 ${color1}${alignc}${font SourceSansPro-ExtraLight:size=14:weight:bold}${color1}${execi 6000 lsb_release -d | grep 'Descr'|awk {'print $2 " " $3" " $4" " $5'}}
-${color1}${font SourceSansPro-ExtraLight:size=10:weight:bold:italic}${color6}$sysname $kernel on $machine
+${color1}${alignc}${font SourceSansPro-ExtraLight:size=10:weight:bold:italic}${color6}$sysname $kernel on $machine
 
 #Processador
 ${voffset 5}${color1}${font ubuntu:size=11:regular}Processador  ${color6}${stippled_hr 3 3}${font}
