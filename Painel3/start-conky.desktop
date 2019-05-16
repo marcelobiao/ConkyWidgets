@@ -4,8 +4,8 @@
 Type=Application
 Exec=conky
 Icon=conky
-X-GNOME-Autostart-enabled=true
-X-MATE-Autostart-enabled=true
+X-GNOME-Autostart-enabled=false
+X-MATE-Autostart-enabled=false
 NoDisplay=false
 Hidden=false
 Name[en_US]=start-conky
